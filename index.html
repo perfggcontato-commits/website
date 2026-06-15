@@ -280,17 +280,8 @@ Entre em contato pelos canais abaixo!</p>
     document.getElementById('year').textContent = new Date().getFullYear();
 
 function app() {
-        // Google Apps Script endpoint (Form submit)
 const FORM_ENDPOINT = "https://script.google.com/macros/s/375-735-9368/exec";
-        // OBS: substitua SEU_DEPLOYMENT_ID_AQUI pelo seu Deployment ID real.
-
-        // TODO: Substitua SEU_DEPLOYMENT_ID_AQUI pelo ID do deploy do seu Google Apps Script.
-        // (Sem isso, o envio não funcionará.)
-
-        // Basic UX: prevent local navigation and submit via fetch.
-        // NOTE: This keeps the site static-friendly.
-        // You still need to deploy your Apps Script web app and replace the placeholder.
-      
+       
       return {
         dark: false,
         mm: false,
